@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "refmap": "bl_trinkets_layer.refmap.json",
+  "package": "net.x7bbbbbbb.bl_trinkets_layer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "SlotMaxStackSizeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "IrisUniformsMixin"
+  ]
+}
